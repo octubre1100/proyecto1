@@ -1,12 +1,14 @@
 .tarjeta {
     border: 0.1rem, solid;
-    margin: 1%; 
+    margin: 1%;
     padding: 1%;
-    box-shadow: 0,0, 8px, 0.3px;
+    box-shadow: 0, 0, 8px, 0.3px;
     border-radius: 0.8rem;
     text-align: center;
     transition: 0.3s;
+    font-size: 1.3rem;
 }
+
 body {
     justify-content: center;
     display: flex;
@@ -15,14 +17,17 @@ body {
     background-color: rgb(253, 250, 245);
     transition: 0.1s;
 }
+
 img {
     height: 244px;
-    
+
 }
+
 .tarjeta:hover {
     scale: 1.1;
     transition: 0.3s;
 }
+
 button {
     border-radius: 0.5rem;
     border: none;
@@ -33,22 +38,26 @@ button {
     margin: 0.8%;
 
 }
+
 button:hover {
     transition: 0.3s;
     background-color: rgb(33, 97, 216);
 }
+
 body.dark {
     background-color: rgb(37, 37, 37);
     color: white;
     transition: 0.4s;
-    
+
 }
+
 body.dark .tarjeta {
     background-color: rgb(53, 53, 53);
     transition: 0.3s;
 }
+
 body.dark .tarjeta p,
-body.dark .tarjeta h1{
+body.dark .tarjeta h1 {
     color: ivory;
-transition: 0.3s;
+    transition: 0.3s;
 }

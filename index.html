@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="tarjeta">
-        <img src="recursos/img/mujer.jpg" alt="">
+        <img src="recursos/img/mujer.png" alt="">
         <h1>Maria Perez</h1>
         <p>Desarrolladora web</p>
         <div class="botones">
-            <button class="btn-info">GitHub</button>
-            <button class="btn-info">CV</button>
+            <a href="https://github.com/octubre1100/proyecto1"><button class="btn-info">GitHub</button></a>
+            <button class="btn-info" onclick="location.href='./noEncontrada.html'">CV</button>
         </div>
         <button id="modoOscuro">🌞</button>
     </div>
 </body>
 <script src="script.js"></script>
+
 </html>
